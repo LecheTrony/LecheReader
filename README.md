@@ -56,6 +56,12 @@ flutter test
 flutter build apk --debug
 ```
 
+Los iconos de Android se generan desde `tool/icon_source.jpg`:
+
+```bash
+dart run tool/generate_launcher_icons.dart
+```
+
 La aplicación funciona sin conexión y no envía libros a ningún servidor.
 
 ## Estructura
