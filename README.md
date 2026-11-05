@@ -1,8 +1,18 @@
-# LecheReader
+<p align="center">
+  <img src="docs/icon.png" alt="Icono de LecheReader" width="112" />
+</p>
 
-Un lector de libros tranquilo y editorial para Android, construido con Flutter.
-Biblioteca local, importación sencilla y una experiencia de lectura cuidada:
-papel crema, tinta y terracota.
+<h1 align="center">LecheReader</h1>
+
+<p align="center">
+  Un lector de libros tranquilo y editorial para Android, construido con Flutter.<br />
+  Biblioteca local, importación sencilla y una experiencia de lectura cuidada:
+  papel crema, tinta y terracota.
+</p>
+
+<p align="center">
+  <strong>Español</strong> · <a href="README.en.md">English</a>
+</p>
 
 ## Funciones
 
