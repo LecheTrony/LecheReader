@@ -12,6 +12,7 @@ import '../../core/models/shelf.dart';
 import '../../core/providers.dart';
 import '../../core/theme/app_palette.dart';
 import '../../core/theme/app_theme.dart';
+import 'pdf_page_layout.dart';
 import 'widgets/reader_settings_panel.dart';
 
 /// Lector de documentos PDF con navegación continua, índice y marcadores.
@@ -463,6 +464,7 @@ class _PdfReaderViewState extends ConsumerState<PdfReaderView> {
                     params: PdfViewerParams(
                       backgroundColor: theme.background,
                       margin: 10,
+                      layoutPages: layoutPdfPages,
                       pageDropShadow: BoxShadow(
                         color: Colors.black.withValues(alpha: 0.18),
                         blurRadius: 14,

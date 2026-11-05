@@ -20,6 +20,8 @@
 - «Continue reading» card to pick up your last book.
 - File import with local copy, metadata, cover and duplicate detection.
 - Built-in readers for paginated text, PDF and CBZ comics.
+- Full-screen reading, without system bars.
+- Double-page PDF spreads fit the width of a normal page.
 - Reading themes (paper, sepia, night and slate), typography, size, line
   height, margins and justification.
 - Bookmarks, table of contents and automatic progress saving.

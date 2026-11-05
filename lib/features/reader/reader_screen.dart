@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -9,6 +11,7 @@ import '../../core/theme/app_palette.dart';
 import '../../core/theme/app_theme.dart';
 import 'book_parser.dart';
 import 'comic_reader.dart';
+import 'immersive_mode.dart';
 import 'pdf_reader.dart';
 import 'reader_models.dart';
 import 'text_reader.dart';
@@ -32,7 +35,14 @@ class _ReaderScreenState extends ConsumerState<ReaderScreen> {
   @override
   void initState() {
     super.initState();
+    unawaited(ImmersiveMode.enter());
     _load();
+  }
+
+  @override
+  void dispose() {
+    unawaited(ImmersiveMode.exit());
+    super.dispose();
   }
 
   Future<void> _load() async {

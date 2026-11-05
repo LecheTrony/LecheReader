@@ -21,6 +21,8 @@
 - Importación de archivos con copia local, metadatos, portada y detección de
   duplicados.
 - Lectores propios para texto paginado, PDF y cómics CBZ.
+- Lectura a pantalla completa, sin barras del sistema.
+- Las páginas dobles de un PDF se ajustan al ancho de la página normal.
 - Temas de lectura (papel, sepia, noche y pizarra), tipografía, tamaño,
   interlineado, márgenes y justificación.
 - Marcadores, índice y guardado automático del progreso.
